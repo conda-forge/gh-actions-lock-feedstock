@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.5.1"
 
 package:
   name: gh-actions-lock
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/github/gh-actions-lock/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 1e9215942c56249c53b645173bebdcbf1eb658e1f970cd19791e4c50118cfb56
+    sha256: 7111528baf1ff7e8169babe7a69b3302e8fd63c6fe2fd5e03a77d98e3423182f
     target_directory: src
     patches:
       - patches/0001-Allow-overriding-the-version-via-ldflags.patch
